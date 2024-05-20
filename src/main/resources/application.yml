@@ -1,0 +1,33 @@
+
+cloud:
+  aws:
+    credentials:
+      access-key: zBAM362R2tqtgy6leKN5qm7b02HeWG
+      secret-key: XvcJODF4BdFG3jGOeyVNugLuJUPdu6
+    region: 
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:  
+    name: tst-4532579423
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
+
+
+
+
+
+
+
