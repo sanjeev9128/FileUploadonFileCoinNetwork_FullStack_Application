@@ -8,6 +8,7 @@ public class FileUploadOnFileCoinFullStackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FileUploadOnFileCoinFullStackApplication.class, args);
+		System.out.println("Hello")l
 	}
 
 }
